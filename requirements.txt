@@ -1,0 +1,27 @@
+# PDF RAG Assistant — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core Framework ──────────────────────────────────────
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-community>=0.3.0
+langchain-text-splitters>=1.1.1
+langchain-anthropic>=0.3.0
+langchain-openai>=0.3.0
+langchain-pinecone>=0.2.0
+
+# ── LLM & Embedding Providers ───────────────────────────
+anthropic>=0.40.0
+openai>=1.50.0
+
+# ── Vector Database ──────────────────────────────────────
+pinecone-client>=5.0.0
+
+# ── PDF Processing ───────────────────────────────────────
+pymupdf>=1.24.0
+
+# ── UI ───────────────────────────────────────────────────
+streamlit>=1.40.0
+
+# ── Config ───────────────────────────────────────────────
+python-dotenv>=1.0.0
